@@ -1,0 +1,7 @@
+{
+    "spec": ["modules/**/*.spec.ts"],
+    "timeout": 200000000000,
+    "require": ["ts-node/register/transpile-only"],
+    "extension": ".ts",
+    "loader": "ts-node/esm"
+}
